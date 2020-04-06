@@ -1,6 +1,6 @@
 <?php echo ' (゜-゜)つロ are you ok?';?>
 <?php
-$color = "6dff57";
+$color = "yellow";
 $default_use_ajax = true;
 $default_charset = 'Windows-1251';
 $auth_pass = "";
