@@ -142,7 +142,7 @@ function wsoHeader() {
 	global $color;
 	echo "<html><head><meta http-equiv='Content-Type' content='text/html; charset=" . $_POST['charset'] . "'><meta name='robots' content='NOINDEX. NOFOLLOW'><title>" . $_SERVER['HTTP_HOST'] . " - WsoEvilTwin</title>
 <style>
-body{background-color:444;color:#e1e1e1;}
+body{background-color:#444;color:#e1e1e1;}
 body,td,th{ font: 9pt Lucida,Verdana;margin:0;vertical-align:top;color:#e1e1e1; }
 table.info{ color:#fff;background-color:#222; }
 span,h1,a{ color: $color !important; }
